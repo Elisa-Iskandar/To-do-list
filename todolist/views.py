@@ -14,6 +14,3 @@ def create_task(request):
         Task.objects.create(title=title, description=description)
         return redirect('task_list')
     return render(request, 'create_task.html')
-
-
-

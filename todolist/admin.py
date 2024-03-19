@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.apps import apps
-from todo.models import Task
+from todolist.models import Task
 # Register your models here.
 
 def register_all_app_models():
